@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab2 Meeting Essence</title>
+    <link rel="icon"
+          type="image/jpg"
+          href="https://img.freepik.com/free-vector/shining-circle-purple-lighting-isolated-dark-background_1441-2396.jpg?size=626&ext=jpg"
+    />
+</head>
+<body>
+    <header>
+        <div>Lab2 Meeting Essence</div>
+        <div>date: 10/3/2021</div>
+        <nav>
+            <ul>
+                <li><a href="#attendance">Attendance</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+        <h1>Lab2 Meeting Essence</h1>
+
+        <h4>date: 10/3/2021</h4>
+
+        <section>
+        <h3 id="attendance">Attendance</h3>
+
+        <ol>
+            <li><input type="checkbox" /> My soul</li>
+            <li><input type="checkbox" /> My heart</li>
+            <li><input type="checkbox" /> My brain</li>
+            <li><input type="checkbox" /> My sore arms</li>
+        </ol>
+
+        <h3 id="agenda">Agenda</h3>
+        <p>
+            <i>This meeting will cover the interesting points of lab2<br> and the essence of the lab, widoms.</i>
+        </p>
+
+        <h3>Unfinished Stuff from Last meeting</h3>
+        <p>
+            <em>We finished everything from lab1 in specific.</em> 
+        </p>
+        </section>
+
+        <section>
+        <h3>new business</h3>
+        <details>
+            <summary>Html</summary>
+            <p>Html is super fun to play with. Feels like a super markdown.</p>
+          </details>
+
+        <h3>Main Diagram</h3>
+
+        <img 
+            src="https://www.freecodecamp.org/news/content/images/size/w1600/2021/01/Screen-Shot-2021-01-11-at-1.16.17-PM.png" 
+            alt="html"
+            width="550"
+        />
+
+        <h3>audio recording</h3>
+        <audio
+        controls
+        src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+
+        <h3>video recording</h3>
+        <video controls width="250">
+        
+            <source src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4"
+                    type="video/mp4">
+        
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+        </section>
+
+    </main>
+
+    <hr/>
+
+    <footer>
+        <b>Ads welcomed</b>, <strong>business contact</strong> <span style="color:red">@ xxx-xxx-xxxx</span>
+
+        <form action="" method="get">
+            <fieldset>
+            <input type="text" placeholder="Enter phone number" />
+            <br>
+            <input type="text" placeholder="Enter insta number" />
+
+            <br> <br> 
+            <label for="feeling-choice">Choose your feelings:</label>
+            <input list="feelings" id="feeling" name="feeling" />
+            <datalist id="feelings">
+                <option value="happy">
+                <option value="sad">
+                <option value="excited">
+            </datalist>
+            <br>
+            <label for="attitudes">Choose an attitude:</label>
+            <select name="attitudes" id="attitudes">
+                <option value="I like this website">I like this website</option>
+                <option value="Nah bad">Nah bad</option>
+                <option value="Favors it">Favors it</option>
+            </select>
+            
+            <br> <br> 
+            <textarea id="lab2review" name="lab2review" rows="4" cols="50">
+                At lab2 I learned ......
+            </textarea>
+            </fieldset>
+
+            
+            <button>Submit</button>
+        </form>
+    </footer>
+</body>
+</html>
