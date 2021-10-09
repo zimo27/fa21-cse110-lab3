@@ -1,0 +1,67 @@
+/* on the behalf of my GPA */
+
+/*colors and units*/
+@media screen and (max-width: 600px) {
+    body {
+      background-color: rgb(190, 78, 115);
+    }
+}
+
+body {
+    background-color: lightblue;
+}
+  
+h1 {
+    color: rgb(131, 131, 197);
+    margin-left: 20px;
+    padding: 1mm,1mm,1mm,1mm;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: black;
+    border-radius: 10px;
+    text-decoration: green wavy underline;
+    display: block;
+    min-width: 150px;
+    position: static;
+
+}
+
+h3 {
+    color: hsla(100, 100%, 50%, 1);
+    margin-left: 1cm;
+    padding-top: 1mm;
+    text-align: end;
+    display: inline;
+    max-width: 150px;
+    position: absolute;
+    top: 240px; left: 40px;
+    
+}
+
+h1 :active{
+    color: yellow;
+}
+
+button :hover{
+    color: yellow;
+  }
+
+h4 {
+    color: #DD320E;
+    margin-left: 15mm;
+    height: 100px;
+    width: 100px;
+}
+
+p { margin-left: 1rem;
+    font-family: serif, sans-serif, "Ephesis";}
+h1 { font-size: 3em; margin-left: 1ex }
+
+/*box model*/
+h2 {
+    margin: auto;
+}
+
+h5 {
+    margin: 25px 50px 75px 100px;
+  }
