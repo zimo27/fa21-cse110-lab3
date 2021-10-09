@@ -45,12 +45,19 @@ h1 :active{
 button :hover{
     color: yellow;
   }
+*{
+    margin-top: 0.4cm;
+}
 
-h4 {
+h4, #agenda, [rows],div > li {
     color: #DD320E;
     margin-left: 15mm;
     height: 100px;
     width: 100px;
+}
+
+li.item-a,div p, h3 + p, p~ul{
+    color:rgb(131, 131, 197);
 }
 
 p { margin-left: 1rem;
