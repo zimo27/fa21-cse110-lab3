@@ -9,6 +9,7 @@
           type="image/jpg"
           href="https://img.freepik.com/free-vector/shining-circle-purple-lighting-isolated-dark-background_1441-2396.jpg?size=626&ext=jpg"
     />
+    <link rel="stylesheet" href="mystyle.css">
 </head>
 <body>
     <header>
@@ -120,6 +121,75 @@
             
             <button>Submit</button>
         </form>
+        <style>
+            .flex-container{
+                display: flex;
+                flex-direction: row-reverse;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                flex-basis: 3cm;
+            }
+            .flex-item-a{
+                background-color: teal;
+                width: 1cm;
+                height: 1cm;
+                padding: 1ch;
+                color:tomato;
+                margin-top: 10px;
+                line-height: 150px;
+                font-weight: bold;
+                font-size: 3em;
+                text-align: center;
+            }
+            .flex-item-b{
+                background-color: black;
+                width: 1cm;
+                height: 1cm;
+                padding: 1ch;
+                color:white;
+                margin-top: 10px;
+                line-height: 150px;
+                font-weight: bold;
+                font-size: 3em;
+                text-align: center;
+            }
+
+            .container {
+                display: grid;
+            }
+            .item-a {
+                grid-column-start: 2;
+                grid-column-end: five;
+                grid-row-start: row1-start;
+                grid-row-end: 3;
+            }
+            .item-b {
+                grid-column-start: 1;
+                grid-column-end: auto;
+                grid-row-start: row2-start;
+                grid-row-end: 2;
+            }
+            .item-c {
+                grid-column-start: 5;
+                grid-column-end: five;
+                grid-row-start: row5-start;
+                grid-row-end: 7;
+            }
+
+        </style>
+        <ul class="flex-container">
+            <li class="flex-item-a">1</li>
+            <li class="flex-item-b">2</li>
+            <li class="flex-item-a">3</li>
+            <li class="flex-item-b">4</li>
+            <li class="flex-item-a">5</li>
+            <li class="flex-item-b">6</li>
+          </ul>
+          <ul class="container">
+            <li class="item-a">1</li>
+            <li class="item-c">2</li>
+            <li class="item-b">4</li>
+          </ul>
     </footer>
 </body>
 </html>
